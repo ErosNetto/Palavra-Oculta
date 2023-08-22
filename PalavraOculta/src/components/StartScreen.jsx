@@ -4,8 +4,8 @@ const StartScreen = ({ startGame }) => {
   return (
     <div className='start'>
       <div className="logo">
-        <h1>Secret</h1>
-        <h1>Wo<span>r</span>d</h1>
+        <h1>Palavra</h1>
+        <h1>Ocu<span>l</span>ta</h1>
       </div>
 
       <button onClick={startGame}>Play</button>
